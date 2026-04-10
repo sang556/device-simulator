@@ -16,6 +16,19 @@ $ java \
    "-Dsimulator.network-interfaces=.*" \
    -jar ${PWD}/simulator-cli/target/simulator-cli.jar
 ```
+命令：
+-  JetLinks Simulator registry
+   Summary: benchmark Run Benchmark
+   clear     Clears the screen
+   cls       Clears the screen
+   coap      Coap client operations
+   exec      Execute JavaScript File
+   help
+   http      HTTP client operations
+   list      Search connections
+   mqtt      Mqtt client operations
+   tcp       tcp client operations
+   udp       UDP client operations
 
 JVM参数说明:
 
