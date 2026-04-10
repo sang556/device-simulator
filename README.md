@@ -20,7 +20,8 @@ $ java \
 ### 命令：
 ```bash
 -  JetLinks Simulator registry
-   Summary: benchmark Run Benchmark
+Summary: 
+   benchmark Run Benchmark
    clear     Clears the screen
    cls       Clears the screen
    coap      Coap client operations
