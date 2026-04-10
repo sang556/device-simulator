@@ -7,6 +7,7 @@
 ```bash
 $ git clone https://github.com/jetlinks/device-simulator.git
 $ cd device-simulator
+$ ./run-cli.sh
 $ mvn clean package -DskipTests
 $ java \
    -Dfile.encoding=UTF-8 \
@@ -27,7 +28,7 @@ JVM参数说明:
 
 在项目根目录启动模拟器后执行命令:
 ```bash
-benchmark mqtt --size=5000 --name=mqtt --host=127.0.0.1 --port=1883 --script=benchmark/mqtt/benchmark.js
+benchmark mqtt --size=5000 --name=mqtt --host=120.79.163.124 --port=1883 --script=benchmark/mqtt/benchmark.js
 ```
 
 注意: 默认的`clientId`格式在`benchmark/mqtt/benchmark.js`中定义,默认为`mqtt-test-{index}`.
