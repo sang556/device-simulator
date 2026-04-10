@@ -16,7 +16,9 @@ $ java \
    "-Dsimulator.network-interfaces=.*" \
    -jar ${PWD}/simulator-cli/target/simulator-cli.jar
 ```
-命令：
+
+### 命令：
+```bash
 -  JetLinks Simulator registry
    Summary: benchmark Run Benchmark
    clear     Clears the screen
@@ -29,6 +31,7 @@ $ java \
    mqtt      Mqtt client operations
    tcp       tcp client operations
    udp       UDP client operations
+```
 
 JVM参数说明:
 
